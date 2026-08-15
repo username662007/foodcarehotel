@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Contact Food Care Hotel.">
+
+  <title>Contact | Food Care Hotel</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<header class="header">
+
+  <nav class="navbar">
+
+    <a href="index.html" class="logo">
+      FOOD <span>CARE</span>
+    </a>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    <ul class="nav-links" id="navLinks">
+
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+
+      <li>
+        <a href="about.html">About</a>
+      </li>
+
+      <li>
+        <a href="contact.html" class="active">
+          Contact
+        </a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+</header>
+
+
+<!-- PAGE HERO -->
+
+<section class="page-hero">
+
+  <div>
+
+    <p class="eyebrow">
+      FOOD CARE HOTEL
+    </p>
+
+    <h1>
+      Contact Us
+    </h1>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="contact-section">
+
+
+  <!-- INFORMATION -->
+
+  <div class="contact-info">
+
+    <p class="section-label">
+      GET IN TOUCH
+    </p>
+
+    <h2>
+      We'd Love To Hear From You
+    </h2>
+
+    <div class="green-line left"></div>
+
+    <p>
+      Have a question, feedback or enquiry?
+      Send us a message and our team will
+      be happy to assist you.
+    </p>
+
+
+    <div class="contact-detail">
+
+      <div class="contact-icon">
+        📍
+      </div>
+
+      <div>
+
+        <h3>Address</h3>
+
+        <p>
+          164 Ramganj
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="contact-detail">
+
+      <div class="contact-icon">
+        👤
+      </div>
+
+      <div>
+
+        <h3>Owner</h3>
+
+        <p>
+          Nikita Meena
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="contact-detail">
+
+      <div class="contact-icon">
+        📅
+      </div>
+
+      <div>
+
+        <h3>Established</h3>
+
+        <p>
+          1992
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- FORM -->
+
+  <form
+    class="contact-form"
+    onsubmit="submitContactForm(event)"
+  >
+
+    <h2>
+      Send a Message
+    </h2>
+
+    <p>
+      Fill in the details below.
+    </p>
+
+
+    <label for="name">
+      Your Name
+    </label>
+
+    <input
+      type="text"
+      id="name"
+      placeholder="Enter your name"
+      required
+    >
+
+
+    <label for="phone">
+      Phone Number
+    </label>
+
+    <input
+      type="tel"
+      id="phone"
+      placeholder="Enter your phone number"
+      required
+    >
+
+
+    <label for="email">
+      Email Address
+    </label>
+
+    <input
+      type="email"
+      id="email"
+      placeholder="Enter your email"
+    >
+
+
+    <label for="message">
+      Message
+    </label>
+
+    <textarea
+      id="message"
+      rows="6"
+      placeholder="Write your message..."
+      required
+    ></textarea>
+
+
+    <button
+      type="submit"
+      class="submit-btn"
+    >
+      Send Message
+    </button>
+
+  </form>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+  <div class="footer-logo">
+    FOOD <span>CARE</span>
+  </div>
+
+  <p>
+    Delicious Food • Warm Hospitality • Happy Moments
+  </p>
+
+  <div class="footer-links">
+
+    <a href="index.html">Home</a>
+
+    <a href="about.html">About</a>
+
+    <a href="contact.html">Contact</a>
+
+  </div>
+
+  <p class="copyright">
+    © 2026 Food Care Hotel. All Rights Reserved.
+  </p>
+
+  <p>
+    Owner: <strong>Nikita Meena</strong>
+  </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
